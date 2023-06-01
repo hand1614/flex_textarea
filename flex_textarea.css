@@ -1,16 +1,7 @@
 
 textarea.flex_textarea {
-  width:       0px ;
-  height:      0px ;
   white-space: pre ;
   resize:      none ;
   box-sizing:  content-box ;
   overflow:    hidden ;
-  margin:      0px ;
-}
-
-div.textarea_div {
-  display:        inline-block ;
-  box-sizing:     content-box ;
-  vertical-align: top ;
 }
