@@ -1,6 +1,7 @@
 
 textarea {
-  min-width:  200px ;
-  min-height: 100px ;
-  padding:    5px ;
+  min-width:    200px ;
+  min-height:   100px ;
+  padding:      5px ;
+  border-width: 10px ;
 }
