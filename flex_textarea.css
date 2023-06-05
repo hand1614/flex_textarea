@@ -5,7 +5,6 @@
 }
 
 .flex_textarea > .dummy {
-  white-space:   pre-wrap ;
   overflow-wrap: break-word ;
   visibility:    hidden ;
 }
