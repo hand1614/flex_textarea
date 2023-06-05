@@ -1,7 +1,27 @@
 
-textarea.flex_textarea {
-  white-space: pre ;
-  resize:      none ;
-  box-sizing:  content-box ;
-  overflow:    hidden ;
+.flex_textarea {
+  position: relative ;
+  display:  inline-block ;
 }
+
+.flex_textarea > .dummy {
+  white-space:   pre-wrap ;
+  overflow-wrap: break-word ;
+  visibility:    hidden ;
+}
+
+.flex_textarea > textarea.textarea {
+  position: absolute ;
+  width:    100% ;
+  height:   100% ;
+  resize:   none ;
+  top:      0 ;
+  left:     0 ;
+}
+
+.flex_textarea > .appearance {
+  box-sizing:     border-box ;
+  overflow:       hidden ;
+}
+
+

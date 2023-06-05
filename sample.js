@@ -1,6 +1,4 @@
 
-"use strict";
-
 import { textarea_resize } from "./flex_textarea.js" ;
 
-document.querySelector( "textarea.flex_textarea" ).addEventListener( "input", textarea_resize ) ;
+for( const element of document.querySelectorAll( ".flex_textarea > textarea.textarea" ) ) element.addEventListener( "input", textarea_resize ) ;

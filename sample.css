@@ -1,7 +1,11 @@
 
-textarea {
-  min-width:    200px ;
-  min-height:   100px ;
-  padding:      5px ;
-  border-width: 10px ;
+.flex_textarea > .appearance {
+  padding:        5px ;
+  border:         5px solid #888888 ;
+  margin:         0px ;
+  font:           inherit ;
+  line-height:    inherit ;
+  min-height:     100px ;
+  min-width:      100px ;
+  letter-spacing: inherit ;
 }
