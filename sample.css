@@ -1,5 +1,5 @@
 
-.flex_textarea > .appearance {
+.flex_textarea > :is( textarea.textarea, .dummy ) {
   padding:        5px ;
   border:         5px solid #888888 ;
   margin:         0px ;
